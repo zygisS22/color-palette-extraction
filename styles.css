@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  flex-direction: column;
+  font-family: "verdana";
+}
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: -4.5px;
+}
+form {
+  margin: 20px;
+}
+canvas {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#palette,
+#complementary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+#palette div,
+#complementary div {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* create a little bit of contrast for the text */
+  mix-blend-mode: difference;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px #333;
+}
+
+#palette div,
+#complementary div {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

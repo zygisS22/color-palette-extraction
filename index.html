@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Create color palette with Javascript" />
+    <meta
+      name="keywords"
+      content="JavaScript, Color spaces, CSS, Color palette, Color quantization"
+    />
+    <meta name="author" content="Zygimantas Sniurevicius" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create color palette</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <script src="./index.js"></script>
+    <h1>Color palette creator</h1>
+    <form action="#">
+      <input type="file" id="imgfile" />
+      <input type="button" id="btnLoad" value="Load" onclick="main();" />
+    </form>
+    <canvas id="canvas"></canvas>
+    <div id="palette"></div>
+    <div id="complementary"></div>
+  </body>
+</html>
