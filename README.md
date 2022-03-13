@@ -1,4 +1,4 @@
-# Create a color palette from and image
+# Create a color palette from an image
 
 using median cut algorithm & color quantization to obtain a color palette with complementary in plain Javascript.
 
