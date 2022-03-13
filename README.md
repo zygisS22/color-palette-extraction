@@ -4,7 +4,7 @@ using median cut algorithm & color quantization to obtain a color palette with c
 
 ### Demo the app [here](https://zygiss22.github.io/color-palette-extraction/).
 
-![Header image](/header-photo.JPG)
+![Header image](/header-photo.jpg)
 
 # Work in Progress
 
