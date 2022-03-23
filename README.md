@@ -1,11 +1,14 @@
 # Create a color palette from an image
 
-using median cut algorithm & color quantization to obtain a color palette with complementary in plain Javascript.
+![Header image](/header-photo.jpg)
+
+Using median cut algorithm & color quantization to obtain a color palette with complementary colors in plain Javascript.
 
 ### Demo the app [here](https://zygiss22.github.io/color-palette-extraction/).
 
-![Header image](/header-photo.jpg)
+This repository was created as an example for this [article](https://dev.to/producthackers/creating-a-color-palette-with-javascript-44ip)
 
-# Work in Progress
 
-this readme file will be updated when the article is finished, sorry :D
+## How to run
+
+Simply clone and open the HTML file in the browser, that's it.
